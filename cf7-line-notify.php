@@ -62,7 +62,7 @@ class Cf7_Line_Notify
         </td>
         </tr>
         </table>
-        <p><input type="submit" value="変更を保存する" class="button button-primary button-large" /></p>
+        <p><input type="submit" value="SAVE" class="button button-primary button-large" /></p>
 <?php
   wp_nonce_field( 'cf7-line-notify-nonce-key', 'cf7-line-notify' );
 ?>
