@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: Contact form 7 LINE Notify
+ * Plugin Name: LINE Notify for Contact Form 7
  * Version: 0.1
- * Description: This plugin send a message to LINE via LINE Notify when Contact form 7 plugin send a mail.
+ * Description: This plugin send a message to LINE via LINE Notify when Contact Form 7 plugin send a mail.
  * Author: Osuke Uesugi
  * Author URI: https://github.com/OsukeUesugi
  * Plugin URI: https://github.com/OsukeUesugi/cf7-line-notify
@@ -41,7 +41,7 @@ class Cf7_Line_Notify
   public function add_plugin_menu() {
     add_options_page(
       'CF7 LINE Notify',
-      'Contact form 7 LINE Notify',
+      'LINE Notify for Contact Form 7 ',
       'administrator',
       'cf7-line-notify',
       array($this, 'display_plugin_admin_page')
