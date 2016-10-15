@@ -52,7 +52,7 @@ class Cf7_Line_Notify
     $access_token = stripslashes( get_option( 'cf7-line-notify-token' ) );
 ?>
       <div class="wrap">
-        <h2>Contact form 7 LINE Notify</h2>
+        <h2>LINE Notify for Contact Form 7</h2>
         <form action="" method="post">
         <table class="form-table">
         <tr>
